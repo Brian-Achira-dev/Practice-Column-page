@@ -1,0 +1,90 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca); /*400*/
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);/*700*/
+
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    margin: 100px 290px 100px 290px;
+    
+}
+
+@media screen and (max-width: 786px) {
+    .container{
+        display: grid;
+        margin: 3rem 5rem;
+    }
+    
+    #box-1{
+        background-color: hsl(31, 77%, 52%);
+        padding: 40px ;
+        border: 2px solid black;
+        
+        
+        
+    }
+    
+    #box-2{
+        background-color: hsl(184, 100%, 22%);
+        padding: 40px;
+        border: 2px solid black;
+    }
+    
+    #box-3{
+        background-color: hsl(179, 100%, 13%);
+        padding: 40px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border: 2px solid black;
+    }
+
+}
+
+.p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 55px;
+}
+
+.title{
+    color: hsl(0, 0%, 95%);
+    
+
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 23px;
+    border: none;
+    padding: 13px 23px 13px 23px;
+    margin-top: 76px;
+}
+
+.element{
+    height: 400px;
+    
+}
+#box-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#box-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+   
+}
+
+#box-3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
